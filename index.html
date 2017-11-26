@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Crystal Collector</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+ <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+
+
+
+
+</head>
+
+<body>
+
+<div class="headingBox">Crystals Collector!</div>
+
+
+<div id ="instructionsBox">
+
+	<p>You will be given a random number at the start of the game.</p>
+
+	<br>
+
+	<p>There are four crystals below. 
+	</p>
+
+	<br>
+
+	<p>By clicking on a crystal you will add a specific amount of points to your total score.</p>
+
+		<br>
+
+	<p>You win the game by matching your total score to random number,
+	
+	you lose the game if your total score goes above the random number.
+	</p>
+		<br>
+
+	<p>The value of each crystal is hidden from you until you click on it.</p>
+
+		<br>
+
+	<p>Each time when the game starts, the game will change the values of each crystal.</p>
+
+		<br>
+	
+</div>
+
+
+<table>
+<tr>
+	<td>
+	<div class="randomNum">
+		<h1>Number to guess:<span id="number-to-guess"></span></h1>
+	</div>
+</td>
+
+
+<td>
+	<div class="userTotal">
+		<h4>Total score: <span id="finalTotal"></span></h4>
+	</div>
+</td>
+
+<td>
+	<div id="winsLosses">
+	<h4>Wins: <span id="win"></span></h4>
+
+<br>
+
+	<div id="lost">
+	<h4>Losses: <span id="losses"></span></h4> 
+	
+</div>
+</div>
+</td>
+</tr>
+</table>
+
+<div id="crystals">
+<table>
+	<tr>
+		<td>
+
+	<div class="box1">
+	<img id="crystal-image" src="assets/images/blue.png" alt= "blue crystal">
+	</div>
+	</td>
+
+	<td>
+	<div class="box2">
+	<img id= "crystal-image" src="assets/images/green.png" alt= "green crystal">
+	</div>
+	</td>
+
+	<td>
+	<div class="box3">
+	<img id="crystal-image" src="assets/images/yellow.png" alt= "yellow crystal">
+	</div>
+	</td>
+
+	<td>
+	<div class="box4">
+	<img id="crystal-image"  src="assets/images/purple.png" alt= "purple crystal">
+	</div>
+	</td>
+
+</div>
+
+</div>
+
+
+
+
+  <script type="text/javascript" src="./assets/javascript/game.js"></script>
+ 
+
+
+
+</body>
+</html>
